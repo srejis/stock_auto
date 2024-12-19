@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
-  <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
+  <diagram name="프로그램 전체 흐름도" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2900" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0z34hf8UstyELCcqmOv5-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="160" width="650" height="560" as="geometry" />
+        </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-96" value="discord" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="449.29" width="30" height="60" as="geometry" />
         </mxCell>
@@ -79,9 +82,6 @@
         <mxCell id="AFegHEFUYES55JKBaeoe-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="AFegHEFUYES55JKBaeoe-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AFegHEFUYES55JKBaeoe-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="AFegHEFUYES55JKBaeoe-114">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="AFegHEFUYES55JKBaeoe-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -148,6 +148,29 @@
         <mxCell id="AFegHEFUYES55JKBaeoe-170" value="주식 매도" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="300" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="0z34hf8UstyELCcqmOv5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="0z34hf8UstyELCcqmOv5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-880" y="440" as="sourcePoint" />
+            <mxPoint x="-750" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0z34hf8UstyELCcqmOv5-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;주식 가격 예측 AI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0z34hf8UstyELCcqmOv5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z34hf8UstyELCcqmOv5-5" target="AFegHEFUYES55JKBaeoe-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0z34hf8UstyELCcqmOv5-5" value="주식 종목 리스트 가져오기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XFAmqwLImfaXvCDfYmBo" name="페이지-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
