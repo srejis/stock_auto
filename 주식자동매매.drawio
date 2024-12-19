@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="6">
   <diagram name="프로그램 전체 흐름도" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2900" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2900" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,6 +88,9 @@
         <mxCell id="AFegHEFUYES55JKBaeoe-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="AFegHEFUYES55JKBaeoe-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0z34hf8UstyELCcqmOv5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="AFegHEFUYES55JKBaeoe-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-130" value="크롤링" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-960" y="420" width="80" height="40" as="geometry" />
         </mxCell>
@@ -148,12 +151,6 @@
         <mxCell id="AFegHEFUYES55JKBaeoe-170" value="주식 매도" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="300" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0z34hf8UstyELCcqmOv5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="0z34hf8UstyELCcqmOv5-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-880" y="440" as="sourcePoint" />
-            <mxPoint x="-750" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0z34hf8UstyELCcqmOv5-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;주식 가격 예측 AI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-610" y="130" width="170" height="30" as="geometry" />
         </mxCell>
@@ -166,8 +163,40 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XFAmqwLImfaXvCDfYmBo" name="페이지-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+  <diagram id="XFAmqwLImfaXvCDfYmBo" name="크롤링">
+    <mxGraphModel dx="1260" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mAnwHdjQhx4lNXPI1zGl" name="이미지AI">
+    <mxGraphModel dx="1260" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ipUGqCBYVYABQog7nIg6" name="주식정보 mlp">
+    <mxGraphModel dx="1260" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tlSwbpf4ESPlKbN-Pa_2" name="감성분석 AI">
+    <mxGraphModel dx="1260" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y5Nm3txJSzmhYtaj27Po" name="Transformer AI">
+    <mxGraphModel dx="1260" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
