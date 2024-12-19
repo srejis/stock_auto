@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2360" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2900" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AFegHEFUYES55JKBaeoe-96" value="discord" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="180" width="30" height="60" as="geometry" />
+          <mxGeometry x="1000" y="449.29" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-104" value="알림 메세지" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-100" target="AFegHEFUYES55JKBaeoe-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-100" value="주식 매매 알림" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="449.29" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-100" target="AFegHEFUYES55JKBaeoe-100">
           <mxGeometry relative="1" as="geometry" />
@@ -20,58 +20,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-112" value="주식종목&lt;div&gt;리스트&lt;/div&gt;" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="50" width="80" height="40" as="geometry" />
+          <mxGeometry x="-960" y="100" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-113" target="AFegHEFUYES55JKBaeoe-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-113" value="과거 주식 가격 데이터" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="590" width="80" height="40" as="geometry" />
+          <mxGeometry x="-750" y="640" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-114" target="AFegHEFUYES55JKBaeoe-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-114" value="주식차트&amp;nbsp;&lt;div&gt;이미지&lt;/div&gt;" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="150" width="80" height="40" as="geometry" />
+          <mxGeometry x="-750" y="200" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-115" target="AFegHEFUYES55JKBaeoe-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-115" value="오늘 이전&lt;div&gt;뉴스기사&lt;/div&gt;" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="480" width="80" height="40" as="geometry" />
+          <mxGeometry x="-750" y="530" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-117" target="AFegHEFUYES55JKBaeoe-125">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-117" value="제무제표&lt;div&gt;및&lt;/div&gt;&lt;div&gt;종목 정보&lt;/div&gt;" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="250" width="80" height="50" as="geometry" />
+          <mxGeometry x="-750" y="300" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-118" target="AFegHEFUYES55JKBaeoe-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-118" value="감성분석 AI" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="-610" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-120" target="AFegHEFUYES55JKBaeoe-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-120" value="이미지 AI" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-610" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-121" target="AFegHEFUYES55JKBaeoe-154">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-121" value="mlp" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="-350" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-122" target="AFegHEFUYES55JKBaeoe-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-122" value="transformer&lt;div&gt;or&lt;br&gt;&lt;div&gt;RNN&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="-610" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-125" target="AFegHEFUYES55JKBaeoe-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-125" value="mlp" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="-610" y="295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-130" target="AFegHEFUYES55JKBaeoe-117">
           <mxGeometry relative="1" as="geometry" />
@@ -86,7 +89,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AFegHEFUYES55JKBaeoe-130" value="크롤링" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="370" width="80" height="40" as="geometry" />
+          <mxGeometry x="-960" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-153" target="AFegHEFUYES55JKBaeoe-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-153" value="현재 가격" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="490" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-154" target="AFegHEFUYES55JKBaeoe-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-154" value="예상 가격" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="415" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-159" value="넣을지 말지 선택" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-156" target="AFegHEFUYES55JKBaeoe-164">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-173" value="넣을지 말지 선택" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-156" target="AFegHEFUYES55JKBaeoe-169">
+          <mxGeometry x="0.3939" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-156" value="가격 목표 비교" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-164" target="AFegHEFUYES55JKBaeoe-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-168" value="장 시작 전" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-164" target="AFegHEFUYES55JKBaeoe-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="760" />
+              <mxPoint x="-920" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-164" value="주식 매수 리스트" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-165" target="AFegHEFUYES55JKBaeoe-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-165" value="주식 매수" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-169" target="AFegHEFUYES55JKBaeoe-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-169" value="주식 매도 리스트" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AFegHEFUYES55JKBaeoe-170" target="AFegHEFUYES55JKBaeoe-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AFegHEFUYES55JKBaeoe-170" value="주식 매도" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
